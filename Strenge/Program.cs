@@ -15,9 +15,15 @@ namespace Strenge
             string samletNavn = fornavn + " " + efternavn;
             string navnStort = samletNavn.ToUpper();
             string navnLille = samletNavn.ToLower();
-            string del = samletNavn.Substring(8,3);
+            string del = samletNavn.Substring(7,4);
+
+            string[] navne = samletNavn.Split(' ');
+            for (int i = 0; i < navne.Length; i++)
+                Console.WriteLine(navne[i]);
 
             Console.WriteLine(del);
+            Console.WriteLine(fornavn + "\r\n\t" + efternavn);
+            System.IO.File.WriteAllText("c:\\temp\\test.txt", samletNavn);
             System.Console.ReadKey();
 
 
