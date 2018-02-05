@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber1", "Egenskaber1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber2", "Egenskaber2\Egenskaber2.csproj", "{2480DBF0-859E-4392-9441-D0F9F304DFEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatiskeMetoder", "StatiskeMetoder\StatiskeMetoder.csproj", "{0557BF0D-EA9F-4DB7-B378-3BF2BF05C6CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +159,10 @@ Global
 		{2480DBF0-859E-4392-9441-D0F9F304DFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2480DBF0-859E-4392-9441-D0F9F304DFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2480DBF0-859E-4392-9441-D0F9F304DFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0557BF0D-EA9F-4DB7-B378-3BF2BF05C6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0557BF0D-EA9F-4DB7-B378-3BF2BF05C6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0557BF0D-EA9F-4DB7-B378-3BF2BF05C6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0557BF0D-EA9F-4DB7-B378-3BF2BF05C6CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

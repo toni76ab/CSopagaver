@@ -12,7 +12,7 @@ namespace Egenskaber1
         {
             Person p = new Person();
             p.Fornavn = "Torben";
-            p.Efternavn = "Nielsen";
+            p.Efternavn = "Niel";
             Console.WriteLine(p.FuldtNavn());
 
         }
@@ -28,7 +28,7 @@ namespace Egenskaber1
             get { return efternavn; }
             set
             {
-                if (value.Length <3)
+                if (value.Length <4)
                 {
                     efternavn = "";
                 }
