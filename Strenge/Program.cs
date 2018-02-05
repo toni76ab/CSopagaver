@@ -24,7 +24,12 @@ namespace Strenge
             Console.WriteLine(del);
             Console.WriteLine(fornavn + "\r\n\t" + efternavn);
             System.IO.File.WriteAllText("c:\\temp\\test.txt", samletNavn);
-            System.Console.ReadKey();
+            System.Console.ReadKey;
+
+         
+	{
+
+	}
 
 
         }
