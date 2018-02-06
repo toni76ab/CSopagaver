@@ -20,6 +20,12 @@ namespace PolymorfiDyr
             {
                 item.SigNoget();
             }
+            Console.WriteLine(1 % 3);
+            Console.WriteLine(2 % 3);
+            Console.WriteLine(3 % 3);
+            Console.WriteLine(4 % 3);
+            Console.WriteLine(5 % 3);
+            Console.WriteLine(6 % 3);
         }
     }
 
@@ -37,6 +43,18 @@ namespace PolymorfiDyr
             string sti = @"x:\dyrenavne.txt";
             string[] navne = System.IO.File.ReadAllLines(sti);
             int index = rnd.Next(0, navne.Length);
+            int tester = index % 2;
+
+            //switch (tester)
+            //{
+            //    case 0:
+            //        return new Dyr() { Navn = navne[index] };
+            //    case 1:
+            //        return new Hund() { Navn = navne[index]};
+            //    case 2:
+            //        return new Kat() { Navn = navne[index] };
+            //}
+
             if (index % 2 == 0)
             {
                 return new Hund() { Navn = navne[index] };
@@ -46,7 +64,9 @@ namespace PolymorfiDyr
             {
                 return new Kat() { Navn = navne[index] };
             }
-    }
+
+
+        }
 
     }
 
