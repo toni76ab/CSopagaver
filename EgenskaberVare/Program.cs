@@ -32,9 +32,11 @@ namespace Test
         private double pris;
         public double Pris
         {
-            get {
+            get
+            {
                 Console.WriteLine("Nu aflæses pris");
-                return pris; }
+                return pris;
+            }
             set {
                 Console.WriteLine("Nu tildeles pris");
                 pris = value; }
