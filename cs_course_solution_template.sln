@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogNlog", "LogNlog\LogNlog.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compare", "Compare\Compare.csproj", "{F7F16A48-418C-4DEF-BC85-DAD8816C6FC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFile", "OpenFile\OpenFile.csproj", "{600DFADC-AC51-4436-8ECF-C41F386B83DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{566BC9DB-2BF4-46DC-AD08-B92BE8FE6AEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +221,14 @@ Global
 		{F7F16A48-418C-4DEF-BC85-DAD8816C6FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F16A48-418C-4DEF-BC85-DAD8816C6FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F16A48-418C-4DEF-BC85-DAD8816C6FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600DFADC-AC51-4436-8ECF-C41F386B83DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600DFADC-AC51-4436-8ECF-C41F386B83DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600DFADC-AC51-4436-8ECF-C41F386B83DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600DFADC-AC51-4436-8ECF-C41F386B83DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566BC9DB-2BF4-46DC-AD08-B92BE8FE6AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566BC9DB-2BF4-46DC-AD08-B92BE8FE6AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566BC9DB-2BF4-46DC-AD08-B92BE8FE6AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566BC9DB-2BF4-46DC-AD08-B92BE8FE6AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
